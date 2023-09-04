@@ -7,7 +7,7 @@ import io from "socket.io-client";
 import { Button } from "./components/ui/button";
 
 export default function App() {
-  const socket = io("http://localhost:4000");
+  const socket = io("https://chatapp-anmu.onrender.com");
 
   const [message, setMessage] = useState<string>("");
   const [sentMessages, setSentMessages] = useState<string[]>([]);
