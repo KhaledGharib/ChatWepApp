@@ -76,5 +76,6 @@
 }
 
 .location-message {
-  color: blue;
+  color: #082f49;
+  cursor: pointer;
 }
